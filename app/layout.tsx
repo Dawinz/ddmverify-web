@@ -42,8 +42,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-slate-800/80 mt-10">
-          <div className="container-shell py-6 text-xs text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
-            <p>© {new Date().getFullYear()} Qwanum Technologies. All rights reserved.</p>
+          <div className="container-shell py-6 text-xs text-slate-500 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex flex-wrap items-center gap-3">
+              <p>© {new Date().getFullYear()} Qwanum Technologies. All rights reserved.</p>
+              <span className="hidden sm:inline text-slate-700">•</span>
+              <a
+                href="/privacy-policy"
+                className="text-slate-400 hover:text-slate-200 underline-offset-2 hover:underline"
+              >
+                Privacy Policy
+              </a>
+              <span className="hidden sm:inline text-slate-700">•</span>
+              <a
+                href="/terms-of-service"
+                className="text-slate-400 hover:text-slate-200 underline-offset-2 hover:underline"
+              >
+                Terms of Service
+              </a>
+            </div>
             <p className="text-slate-500">
               Admins:{" "}
               <a
