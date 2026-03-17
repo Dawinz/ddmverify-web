@@ -1,6 +1,9 @@
+import EmailConfirmBanner from '../components/EmailConfirmBanner';
+
 export default function MarketingHome() {
   return (
     <div className="container-shell py-12 sm:py-16 lg:py-20 space-y-16">
+      <EmailConfirmBanner />
       <section className="grid gap-10 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] items-start">
         <div className="space-y-6">
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-400/40 bg-brand-500/10 px-3 py-1 text-xs font-medium text-brand-100">
