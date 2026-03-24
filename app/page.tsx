@@ -94,6 +94,36 @@ export default function MarketingHome() {
           here later.
         </p>
       </section>
+
+      <section id="testing-links" className="space-y-4 border-t border-slate-800/80 pt-8">
+        <h2 className="text-lg sm:text-xl font-semibold text-slate-50">Testing app links</h2>
+        <div className="grid gap-3 sm:grid-cols-3">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.qwantumtech.ipo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3 text-sm font-medium text-slate-200 hover:border-brand-500/60 hover:text-white transition-colors"
+          >
+            IPO testing link
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ddmverify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3 text-sm font-medium text-slate-200 hover:border-brand-500/60 hover:text-white transition-colors"
+          >
+            DDM Verify testing link
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.azuramall.shop"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-slate-800 bg-slate-950/70 px-4 py-3 text-sm font-medium text-slate-200 hover:border-brand-500/60 hover:text-white transition-colors"
+          >
+            Azura testing link
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
