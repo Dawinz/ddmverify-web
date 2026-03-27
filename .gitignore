@@ -25,3 +25,7 @@ dist-ssr
 
 # Vercel
 .vercel
+
+# Playwright (if re-added later)
+playwright-report/
+test-results/
