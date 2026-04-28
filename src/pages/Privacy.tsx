@@ -45,8 +45,8 @@ const Privacy = () => {
             <h2 className="text-base font-semibold text-foreground">Contact</h2>
             <p>
               For privacy questions, contact us at{" "}
-              <a className="underline" href="mailto:support@qwantumtech.com">
-                support@qwantumtech.com
+              <a className="underline" href="mailto:support@ddmverify.com">
+                support@ddmverify.com
               </a>.
             </p>
           </section>
