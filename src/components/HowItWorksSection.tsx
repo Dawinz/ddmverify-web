@@ -4,20 +4,20 @@ const steps = [
   {
     icon: Search,
     step: "01",
-    title: "Search or Scan",
-    description: "Find a business or listing instantly using search, QR code, or direct link.",
+    title: "List or discover property",
+    description: "Agents publish listings in the app; buyers search the catalog and open detail with photos and facts.",
   },
   {
     icon: ShieldCheck,
     step: "02",
-    title: "Verify Authenticity",
-    description: "See trust scores, uploaded documents, and real-time verification status.",
+    title: "Run the verification pipeline",
+    description: "Documents, admin review, optional land search, and stage updates — surfaced in the app, not hidden.",
   },
   {
     icon: CheckCircle2,
     step: "03",
-    title: "Make Decisions Safely",
-    description: "Proceed with confidence knowing every detail has been validated.",
+    title: "Read the report, then decide",
+    description: "When issued, the verification report summarizes findings so you can proceed with paperwork or walk away.",
   },
 ];
 
@@ -36,7 +36,7 @@ const HowItWorksSection = () => {
             How It Works
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-primary-foreground sm:text-4xl">
-            Three steps to verified trust.
+            From listing to issued report.
           </h2>
         </div>
 

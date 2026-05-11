@@ -17,18 +17,19 @@ const HeroSection = () => {
         <div className="flex-1 space-y-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/80 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur-sm">
             <Shield className="h-4 w-4 text-accent" />
-            Trusted by thousands of businesses
+            Property listings with a real verification pipeline
           </div>
 
           <h1 className="text-4xl font-bold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Verify. Trust.
+            Verify the listing.
             <br />
-            <span className="text-secondary">Transact.</span>
+            <span className="text-secondary">Then move forward.</span>
           </h1>
 
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
-            Authenticate businesses, explore verified listings, and make
-            confident decisions — from anywhere in the world.
+            DDM Verify is a mobile-first platform for property agents and buyers: structured
+            checks, land-search tracking, and an issued verification report — not a generic
+            “trust score” or automated business rating.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -39,11 +40,11 @@ const HeroSection = () => {
           <div className="flex flex-wrap items-center gap-6 pt-2 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5">
               <CheckCircle2 className="h-4 w-4 text-accent" />
-              Free to download
+              Mobile app for agents and buyers
             </span>
             <span className="flex items-center gap-1.5">
               <Star className="h-4 w-4 text-accent" />
-              4.9 on App Store
+              Human-reviewed verification workflow
             </span>
           </div>
         </div>
@@ -51,7 +52,7 @@ const HeroSection = () => {
         <div className="relative flex flex-1 items-center justify-center py-8">
           <img
             src={phoneMockup}
-            alt="DDM Verify app showing business verification dashboard"
+            alt="DDM Verify app showing property verification progress"
             className="relative z-10 w-[260px] drop-shadow-2xl sm:w-[300px] lg:w-[340px]"
             width={640}
             height={1024}
@@ -63,8 +64,8 @@ const HeroSection = () => {
                 <CheckCircle2 className="h-4 w-4 text-accent" />
               </div>
               <div>
-                <div className="text-xs font-semibold text-foreground">Verified Business</div>
-                <div className="text-[10px] text-muted-foreground">Authenticated & trusted</div>
+                <div className="text-xs font-semibold text-foreground">Verified listing</div>
+                <div className="text-[10px] text-muted-foreground">Pipeline + report on file</div>
               </div>
             </div>
           </FloatingCard>
@@ -75,8 +76,8 @@ const HeroSection = () => {
                 <Shield className="h-4 w-4 text-secondary" />
               </div>
               <div>
-                <div className="text-xs font-semibold text-foreground">Trust Score</div>
-                <div className="text-[10px] text-muted-foreground">98% — Excellent</div>
+                <div className="text-xs font-semibold text-foreground">Land search</div>
+                <div className="text-[10px] text-muted-foreground">Status tracked in-app</div>
               </div>
             </div>
           </FloatingCard>
@@ -87,8 +88,8 @@ const HeroSection = () => {
                 <AlertTriangle className="h-4 w-4 text-destructive" />
               </div>
               <div>
-                <div className="text-xs font-semibold text-foreground">Flagged Risk</div>
-                <div className="text-[10px] text-muted-foreground">Review recommended</div>
+                <div className="text-xs font-semibold text-foreground">Admin review</div>
+                <div className="text-[10px] text-muted-foreground">Needs changes or suspended</div>
               </div>
             </div>
           </FloatingCard>

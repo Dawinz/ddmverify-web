@@ -12,7 +12,7 @@ const MobileExperienceSection = () => {
         <div className="flex flex-1 justify-center">
           <img
             src={phonesMockup}
-            alt="DDM Verify mobile app showing trust scores and verification interface"
+            alt="DDM Verify mobile app showing property verification and listing detail"
             className="w-full max-w-md drop-shadow-xl"
             loading="lazy"
             width={800}
@@ -28,15 +28,15 @@ const MobileExperienceSection = () => {
             Built for real-world decisions.
           </h2>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-            From verification to action, every step is designed to be fast,
-            clear, and reliable — right from your phone.
+            Listing creation, verification stages, land-search updates, and the issued report are meant to be used on
+            the phone first — with the API backing the same data for admin and integrations.
           </p>
 
           <div className="space-y-4 pt-2">
             {[
-              { icon: Smartphone, text: "Native experience on iOS & Android" },
-              { icon: Zap, text: "Instant verification results" },
-              { icon: Eye, text: "Clear, readable trust reports" },
+              { icon: Smartphone, text: "Native apps for iOS & Android" },
+              { icon: Zap, text: "Server-driven pipeline status (no fake “instant” guarantees)" },
+              { icon: Eye, text: "Readable verification report sections when published" },
             ].map(({ icon: Icon, text }) => (
               <div key={text} className="flex items-center gap-3 text-sm text-foreground">
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-accent/10">

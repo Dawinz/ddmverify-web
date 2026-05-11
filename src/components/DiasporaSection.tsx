@@ -2,9 +2,9 @@ import diasporaHero from "@/assets/diaspora-hero.jpg";
 import { CheckCircle2 } from "lucide-react";
 
 const bullets = [
-  "Verify before you pay",
-  "Avoid scams and fake listings",
-  "Support real, verified businesses",
+  "Review listing verification status before you wire funds",
+  "See land-search and report context when the workflow completes",
+  "Work with agents who operate inside the same structured process",
 ];
 
 const DiasporaSection = () => {
@@ -32,9 +32,8 @@ const DiasporaSection = () => {
             Confidence, even from thousands of miles away.
           </h2>
           <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-            Whether you're abroad sending money, investing, or supporting family,
-            DDM Verify ensures every business you interact with is authentic and
-            trustworthy.
+            Buying land or a home from abroad is high stakes. DDM Verify focuses on property listings with a documented
+            verification path — so you know what was checked, not just that a page says “verified.”
           </p>
           <ul className="space-y-3 pt-2">
             {bullets.map((text) => (

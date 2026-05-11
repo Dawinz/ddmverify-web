@@ -1,35 +1,41 @@
-import { ShieldCheck, BarChart3, Store, AlertTriangle, History, Globe } from "lucide-react";
+import { ShieldCheck, ClipboardList, Store, Bell, History, Globe } from "lucide-react";
 
 const features = [
   {
     icon: ShieldCheck,
-    title: "Business Verification System",
-    description: "Multi-layer verification checks including documents, registration, and real-world validation.",
+    title: "Property verification pipeline",
+    description:
+      "Structured stages for documents, review, and sign-off — aligned with what agents complete in the mobile app.",
   },
   {
-    icon: BarChart3,
-    title: "Trust Score Engine",
-    description: "Proprietary scoring algorithm that rates every business on transparency, history, and compliance.",
+    icon: ClipboardList,
+    title: "Issued verification report",
+    description:
+      "Title deed checks, land-search outcome, field notes, and risk context in one place when the report is published.",
   },
   {
     icon: Store,
-    title: "Verified Listings Marketplace",
-    description: "Browse a curated marketplace of pre-verified businesses you can transact with safely.",
+    title: "Verified listings catalog",
+    description:
+      "Public catalog surfaces listings that meet verification rules; expired or revoked listings are hidden from browse.",
   },
   {
-    icon: AlertTriangle,
-    title: "Fraud Detection Signals",
-    description: "Real-time alerts and risk flags so you know when something doesn't add up.",
+    icon: Bell,
+    title: "Notifications",
+    description:
+      "Push and in-app updates for verification decisions, land-search completion, and messages — when enabled on the device.",
   },
   {
     icon: History,
-    title: "Saved History & Tracking",
-    description: "Keep track of every business you've verified with detailed activity logs.",
+    title: "Activity & bookings",
+    description:
+      "Agents and buyers can track progress on listings, bookings, and payments through the app and API-backed history.",
   },
   {
     icon: Globe,
-    title: "Multi-language Support",
-    description: "Access DDM Verify in multiple languages to serve communities worldwide.",
+    title: "Diaspora-friendly workflow",
+    description:
+      "Designed for buyers and families coordinating from abroad who need clarity before they commit funds to a plot or home.",
   },
 ];
 
@@ -42,10 +48,10 @@ const FeaturesSection = () => {
             Features
           </p>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            Everything you need to verify with confidence.
+            Built around real property deals.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground">
-            A complete toolkit for business verification, trust building, and safe transactions.
+            The product is intentionally narrow: verification for property listings, not a generic “trust score” for every business type.
           </p>
         </div>
 
